@@ -22,15 +22,6 @@ function addSum(num) {
     return n * (num + 1) / 2;
 }
 
-
-function addSum(num) {
-	let total = 0;
-	for (let i = 0; i < num.length; i++) {
-		total += num[i];
-    }
-    return total;
-}
-
 // We have 1 assignment (let total = 0), another assignment (let i = 0), that are independent operations outside the loop. Then we also 
 // have addition and assignment for i++ as well as addition and assignment for total += num[i]; So as n grows so does the number of simple 
 // operations and let’s not forget out the operations associated with comparison (i < num.length). It can add up pretty quickly.
