@@ -11,6 +11,7 @@ O(100 * n)
 // Simplify the big O expression as much as possible:
 O(25)
 
+
 // Question 4:
 // Simplify the big O expression as much as possible:
 O(n + n + n + n) 

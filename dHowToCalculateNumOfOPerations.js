@@ -19,7 +19,7 @@ function addSum(num) {
 
 
 function addSum(num) {
-    return n * (num + 1) / 2;
+    return num * (num + 1) / 2;
 }
 
 // We have 1 assignment (let total = 0), another assignment (let i = 0), that are independent operations outside the loop. Then we also 
