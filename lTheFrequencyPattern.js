@@ -1,4 +1,4 @@
-// Write a function called same, which accepts two arrays. The function should return true if every value in the array has it's 
+// Write a function called same, which accepts two arrays. The function should return true if every value in the first array has it's 
 // corresponding value squared in the second array. The frequency of values must be the same. Order does matter only frequency
 // ===========================================
 // Frequency Pattern O(N^2) Quadratic Solution
@@ -82,8 +82,8 @@ function same(arr1, arr2) {
         // If the value in the second object (the value not the key) is not equal to (or the count for that value) is not equal to
         // the number of occurances in the first objects value then we also return false.
         // Checking this may seem confusing but in the first conditional we are just checking to see if we can find a value based on the first 
-        // object inside the second object that is the the value in the first object to the second power inside the second object
-        // In this conditional below we are checking to see now the number of times each value occurs in each object is equal
+        // object inside the second object that is the value in the first object to the second power inside the second object
+        // In this conditional below we are checking to see how the number of times each value occurs in each object is equal
         // Meaning the frequency. Is the frequency of numbers that have occured when we populated our array into objects the same.
         if (frequencyCounter2[key**2] !== frequencyCounter1[key]) {
             return false;

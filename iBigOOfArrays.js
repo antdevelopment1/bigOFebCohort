@@ -22,7 +22,7 @@
 // unshift - O(N) 
 // concat - O(N)
 // splice - O(N)
-// splice - O(N)
+// slice - O(N)
 // sort - O(N * log N)
 // forEach/map/filter/reduce/etc. - O(N)
 

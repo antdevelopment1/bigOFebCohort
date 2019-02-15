@@ -1,4 +1,7 @@
 // Simplfying O(N) operations
+// O(N) linear decent
+// O(1) constant great
+// O(N^2) quadratic awful
 // Question 1:
 // Simplify the big O expression as much as possible:
 O(n + 10) 
