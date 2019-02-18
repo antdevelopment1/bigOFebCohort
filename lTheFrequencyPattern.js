@@ -63,6 +63,7 @@ function same(arr1, arr2) {
         // If we can target that value in the object then it will be true and we just increment it by 1
         frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1;
     }
+    // console.log(frequencyCounter1)
 
     // We loop through the second array
     for (let val of arr2) {
@@ -71,7 +72,7 @@ function same(arr1, arr2) {
         // If we can find it than it will be true and then we will just add 1
         frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1;
     }
-
+    // console.log(frequencyCounter2)
     // We loop through all they keys values in the first object
     for (let key in frequencyCounter1) {
         // If we cannot find the value to the second power in the the second object we return false because that means not
@@ -192,4 +193,4 @@ function validAnagram(first, second) {
     return true;
 }
 
-// console.log(validAnagram('racecar', 'carrace'));
+console.log(validAnagram('racecar', 'cawrace'));
