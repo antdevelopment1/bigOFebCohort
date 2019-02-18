@@ -5,7 +5,7 @@
 
 // We dont need an exact count of how many operations an algorithm may have. We care about the general trend or pattern created.
 // O(2n) = O(N) decent
-// O(500) = O(1) constant
+// O(500) = O(1) constant great
 // O(13n^2) = O(N^2) awful
 
 
